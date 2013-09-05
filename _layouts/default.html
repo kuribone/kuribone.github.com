@@ -5,15 +5,33 @@
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
     <title>{{ page.title }}</title>
     <meta content='width=device-width' name='viewport'>
-    <link href='/css/syntax.css' rel='stylesheet'>
-    <link href='/css/main.css' rel='stylesheet'>
-    <link href='/css/screen.css' rel='stylesheet'>
     <link href='/css/gumby.css' rel='stylesheet'>
   </head>
   <body>
     <div class='container'>
       <div class='site'>
         <div class='header'>
+          <div class='row navbar'>
+            <h4 class='four columns'>
+              <a>menu</a>
+            </h4>
+            <ul class='eight columns'>
+              <li>
+                <a>Features</a>
+              </li>
+              <li>
+                Documentation
+                <div class='dropdown'>
+                  <ul>
+                    <li>The Grid</li>
+                    <li>UI Kit</li>
+                    <li>Sass</li>
+                  </ul>
+                </div>
+              </li>
+              <li>Customize</li>
+            </ul>
+          </div>
           <h1 class='title'>
             <a href='/'>{{ site.name }}</a>
           </h1>

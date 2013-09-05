@@ -5,14 +5,25 @@
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
     %title {{ page.title }}
     %meta{:content => "width=device-width", :name => "viewport"}/
-    %link{:href => "/css/syntax.css", :rel => "stylesheet"}/
-    %link{:href => "/css/main.css", :rel => "stylesheet"}/
-    %link{:href => "/css/screen.css", :rel => "stylesheet"}/
     %link{:href => "/css/gumby.css", :rel => "stylesheet"}/
   %body
     .container
       .site
         .header
+          .row.navbar
+            %h4.four.columns
+              %a menu
+            %ul.eight.columns
+              %li
+                %a Features
+              %li
+                Documentation
+                .dropdown
+                  %ul
+                    %li The Grid
+                    %li UI Kit
+                    %li Sass
+              %li Customize
           %h1.title
             %a{:href => "/"} {{ site.name }}
           %a.extra{:href => "/"} home
