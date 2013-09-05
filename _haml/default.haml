@@ -11,36 +11,39 @@
       .site
         .header
           .row.navbar
-            %h4.four.columns
-              %a menu
-            %ul.eight.columns
-              %li
-                %a Features
-              %li
-                Documentation
-                .dropdown
-                  %ul
-                    %li The Grid
-                    %li UI Kit
-                    %li Sass
-              %li Customize
-          %h1.title
+            .nav
+              .one.columns
+              %h3.three.columns
+                %a kuribone.github.io
+              %ul.eight.columns
+                %li
+                  %a Features
+                %li
+                  %a Documentation
+                  .dropdown
+                    %ul
+                      %li
+                        %a The Grid
+                      %li
+                        %a UI Kit
+                      %li
+                        %a Sass
+                %li
+                  %a Customize
+          %h1.title.row
             %a{:href => "/"} {{ site.name }}
-          %a.extra{:href => "/"} home
-        {{ content }}
-        .footer
-          .contact
-            %p
-              Your Name
-              %br
-              What You Are
-              %br
-              your@email.com
-          .contact
-            %p
-              %a{:href => "http://github.com/yourusername/"}
-                github.com/yourusername
-              %br
-              %a{:href => "http://twitter.com/yourusername/"}
-                twitter.com/yourusername
-              %br
+        .row
+          {{ content }}
+        .row
+          .footer
+            .contact
+              %p
+                kuribone
+            .contact
+              %p
+                %a{:href => "http://github.com/kuribone/"}
+                  github.com/kuribone
+                %br
+                %a{:href => "http://twitter.com/kuribone/"}
+                  twitter.com/kuribone
+                %br

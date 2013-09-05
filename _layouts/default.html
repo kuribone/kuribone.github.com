@@ -12,53 +12,63 @@
       <div class='site'>
         <div class='header'>
           <div class='row navbar'>
-            <h4 class='four columns'>
-              <a>menu</a>
-            </h4>
-            <ul class='eight columns'>
-              <li>
-                <a>Features</a>
-              </li>
-              <li>
-                Documentation
-                <div class='dropdown'>
-                  <ul>
-                    <li>The Grid</li>
-                    <li>UI Kit</li>
-                    <li>Sass</li>
-                  </ul>
-                </div>
-              </li>
-              <li>Customize</li>
-            </ul>
+            <div class='nav'>
+              <div class='one columns'></div>
+              <h3 class='three columns'>
+                <a>kuribone.github.io</a>
+              </h3>
+              <ul class='eight columns'>
+                <li>
+                  <a>Features</a>
+                </li>
+                <li>
+                  <a>Documentation</a>
+                  <div class='dropdown'>
+                    <ul>
+                      <li>
+                        <a>The Grid</a>
+                      </li>
+                      <li>
+                        <a>UI Kit</a>
+                      </li>
+                      <li>
+                        <a>Sass</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a>Customize</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <h1 class='title'>
+          <h1 class='title row'>
             <a href='/'>{{ site.name }}</a>
           </h1>
-          <a class='extra' href='/'>home</a>
         </div>
-        {{ content }}
-        <div class='footer'>
-          <div class='contact'>
-            <p>
-              Your Name
-              <br>
-              What You Are
-              <br>
-              your@email.com
-            </p>
-          </div>
-          <div class='contact'>
-            <p>
-              <a href='http://github.com/yourusername/'>
-                github.com/yourusername
-              </a>
-              <br>
-              <a href='http://twitter.com/yourusername/'>
-                twitter.com/yourusername
-              </a>
-              <br>
-            </p>
+        <div class='row'>
+          {{ content }}
+        </div>
+        <div class='row'>
+          <div class='footer'>
+            <div class='contact'>
+              <p>
+                kuribone
+              </p>
+            </div>
+            <div class='contact'>
+              <p>
+                <a href='http://github.com/kuribone/'>
+                  github.com/kuribone
+                </a>
+                <br>
+                <a href='http://twitter.com/kuribone/'>
+                  twitter.com/kuribone
+                </a>
+                <br>
+              </p>
+            </div>
           </div>
         </div>
       </div>
